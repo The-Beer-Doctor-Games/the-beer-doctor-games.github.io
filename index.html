@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Beer Doctor</title>
+<meta name="description" content="Games by The Beer Doctor, an independent developer from Greece.">
+<style>
+  :root { --bg: #fff; --fg: #1b1d24; --muted: #5b6070; --card: #f3f4f8; --line: #d8dbe3; --link: #0a66c2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d0f16; --fg: #e7e9f0; --muted: #9aa0b2; --card: #161925; --line: #2c3040; --link: #6fd8ff; }
+  }
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px;
+         margin: 0 auto; padding: 32px 16px 64px; color: var(--fg); background: var(--bg); }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  .muted { color: var(--muted); }
+  a { color: var(--link); }
+  .game { display: flex; gap: 16px; align-items: center; background: var(--card); border: 1px solid var(--line);
+          border-radius: 14px; padding: 16px; margin-top: 24px; }
+  .game img { width: 72px; height: 72px; border-radius: 16px; flex: none; }
+  .game h2 { font-size: 20px; margin: 0; }
+  .game p { margin: 4px 0; }
+  footer { margin-top: 48px; font-size: 14px; }
+</style>
+</head>
+<body>
+<h1>The Beer Doctor</h1>
+<p class="muted">Small, offline-friendly mobile games made by an independent developer in Greece.</p>
+
+<div class="game">
+  <img src="orbit-defense/icon.png" alt="Orbit Defense icon">
+  <div>
+    <h2>Orbit Defense</h2>
+    <p>One-finger neon arcade shooter: defend the core, pick upgrades, survive.</p>
+    <p><a href="https://play.google.com/store/apps/details?id=com.thebeerdoc.orbitdefense">Google Play</a> ·
+       <a href="orbit-defense/privacy/">Privacy policy</a> ·
+       <a href="orbit-defense/terms/">Terms</a></p>
+  </div>
+</div>
+
+<footer class="muted">Contact: <a href="mailto:thebeerdoctorgames@gmail.com">thebeerdoctorgames@gmail.com</a></footer>
+</body>
+</html>

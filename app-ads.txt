@@ -1,0 +1,2 @@
+# app-ads.txt for The Beer Doctor (all apps). Add one line per ad network, e.g. for AdMob:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
