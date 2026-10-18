@@ -1,4 +1,4 @@
-# The Beer Doctor: website
+# The Beer Doctor Games: website
 
 Published with GitHub Pages at https://the-beer-doctor-games.github.io (the repository must be named
 `the-beer-doctor-games.github.io` so the site and `app-ads.txt` live at the root of the domain).
